@@ -1,4 +1,4 @@
-package com.example.worthyapp;
+package com.example.worthy_app;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
