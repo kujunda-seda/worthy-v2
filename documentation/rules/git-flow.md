@@ -22,9 +22,9 @@
 - adding a non-empty `new-folder` requires explicit addition: `git add new-folder`
 - to add all files (including in folders): `git add -A`
 
-7. Commit your changes with a meaningful message
+7. Commit your changes with a meaningful message. If this commit resolves an issue mention it in commit message with `resolves #[issue number]`
 
-`git commit -m "meaningful message"`
+`git commit -m "meaningful message. Resolves #13"`
 
 8. Push your commit to remote repository
 - first time you push to set up remote tracking `git push -u origin task-name`
@@ -34,7 +34,7 @@
 - on main repository page `Your recently pushed branches:` > `Compare & pull request`
 - or go to your `task-name` branch and right to branch name `New pull request`
 - choose base branch `develop`
-- leave a comment
+- leave a comment, if PR resolves an issue mention it in description with `resolves #[issue number]` or `fixes #[issue number]`
 - press `Create pull request` button.
 
 10. Non-submitter admin reviews open pull request by choosing `Review changes` > `Approve` > `Submit review` after he checked the following:
