@@ -17,9 +17,9 @@ The following account types will be present in the database, but will not be see
 Both classifications are more suited to business accounting. 
 
 1. There is no need to record equity at the end of the period, it can be recalculated on the fly. The only accounts of `equity` type are  `Currency Trading` in all used currencies. They balance differences that occur due to multi-currency support according to current exchange rates and allow setting correct conversion on the date of transaction.
-2. There is no need to differetiate between `Assets` and `Liabilities` because e.g. giving a loan to a person will create an `Asset` but getting a little more in return will be accounted as `Liability`. In business accounting netting documents are signed to compensate mutual liabilities, but we consider it overcomplicated for personal accounting and confusing to the user.
+2. There is no need to differentiate between `Assets` and `Liabilities` because e.g. giving a loan to a person will create an `Asset` but getting a little more in return will be accounted as `Liability`. In business accounting netting documents are signed to compensate mutual liabilities, but we consider it overcomplicated for personal accounting and confusing to the user.
 3. `Assets` respresent tangible monetary assets and `Loans` represent intangible assets or liabilities (recorded with a negative value). But both `Assets` and `Loans` can be a source/destination of monetary operations. So they are presented to user in the same scenarios.
-4. `Income` and `Expense` account type are the only ones the exactly match classifications. They a valid to use in personal accounting as is.
+4. `Income` and `Expense` account type are the only ones the exactly match classifications. They are valid to use in personal accounting as is.
 
 ## Types of entries
 Entries are collections of transactions that represent user-friendly records.
